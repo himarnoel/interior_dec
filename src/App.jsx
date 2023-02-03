@@ -3,13 +3,13 @@ import icon from "./assets/icons/Vector.svg";
 import logo from "./assets/Logo.jpg";
 function App() {
   return (
-    <div className="lg:max-w-4xl mx-auto">
-      <nav className="2xl:bg-blue-200 mt-2 flex items-center justify-between">
+    <div className="">
+      <nav className="lg:max-w-4xl mx-auto 2xl:bg-blue-200 mt-2 flex items-center justify-between">
         <span className="flex items-center gap-y-3">
           <img src={logo} alt="" className="lg:mr-2 object-contain w-5 " />
           <h1 className="font-medium text-xl">Interno</h1>
         </span>
-        <span className="flex w-[500px] justify-around text-xs">
+        <span className="flex w-[450px] justify-around text-xs">
           <a href="">Home</a>
           <a href="">Pages</a>
           <a href="">Services</a>
@@ -19,6 +19,10 @@ function App() {
           <img src={icon} className="object-contain w-4" />
         </span>
       </nav>
+  <div>
+    <img src="" alt="" />
+  </div>
+
     </div>
   );
 }
