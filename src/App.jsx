@@ -2,6 +2,7 @@ import React from "react";
 import icon from "./assets/icons/Vector.svg";
 import logo from "./assets/Logo.jpg";
 import Hero from "./assets/Hero.jpg";
+import {BsArrowRight} from "react-icons/bs"
 function App() {
   return (
     <div className="">
@@ -10,7 +11,7 @@ function App() {
           <img src={logo} alt="" className="lg:mr-2 object-contain w-5 " />
           <h1 className="font-medium text-xl">Interno</h1>
         </span>
-        <span className="flex w-[500px] justify-around text-[0.8rem] font-mono">
+        <span className="flex w-[500px] justify-around text-[0.9rem] font-jost">
           <a href="">Home</a>
           <a href="">Pages</a>
           <a href="">Services</a>
@@ -23,21 +24,22 @@ function App() {
       <div className="relative mb-10 ">
         <img
           src={Hero}
-          className="w-screen h-[28rem]  object-cover rounded-bl-[100px]"
+          className="w-screen h-[28rem]  object-cover rounded-bl-[120px]"
         />
-        <div className="absolute top-8 left-[230px] w-40 ">
-          <h1>
+        <div className="absolute top-28 left-[230px] w-80 h-60   flex flex-col justify-around items-start ">
+          <h1 className="text-5xl">
             {" "}
-            <p>Let your Home</p>
+            <p>Let Your Home </p>
             <p> Be Unique</p>
           </h1>
-          <p className="font-Jost">
+          <p className="font-jost text-sm">
             There are many variations of the passages of lorem Ipsum
             fromavailable,variations of the passages.
           </p>
-          <button className="p-3 bg-[#292F36] rounded text-white">
+          <button className="p-3 bg-[#292F36] rounded-xl text-white font-jost text-sm font-light flex items-center">
             {" "}
-            Get Started
+            Get Started 
+            <BsArrowRight className="ml-2 text-[#CDA274] text-xl"  />
           </button>
         </div>
       </div>
