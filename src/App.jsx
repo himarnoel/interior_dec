@@ -1,6 +1,7 @@
 import React from "react";
 import icon from "./assets/icons/Vector.svg";
 import logo from "./assets/Logo.jpg";
+import Hero from "./assets/Hero.jpg";
 function App() {
   return (
     <div className="">
@@ -19,10 +20,9 @@ function App() {
           <img src={icon} className="object-contain w-4" />
         </span>
       </nav>
-  <div>
-    <img src="" alt="" />
-  </div>
-
+      <div>
+        <img src={Hero}  />
+      </div>
     </div>
   );
 }
