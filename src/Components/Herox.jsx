@@ -5,12 +5,12 @@ import { BsArrowRight } from "react-icons/bs";
 const Herox = () => {
   return (
     <div>
-      <div className="md:mt-[4.2rem] mt-[3rem] lg:mt-2">
+      <div className="md:mt-[4.2rem] mt-[3rem] lg:mt-0">
         <img
           src={Hero}
-          className="w-screen h-[30rem]  object-cover rounded-bl-[100px] "
+          className="w-screen h-[30rem] lg:h-full  object-cover rounded-bl-[100px]"
         />
-        <div className="absolute top-28 md:top-[8rem] xl:top-[13rem]  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem] left-4   w-[15rem] sm:w-80 h-60   flex flex-col justify-around items-start ">
+        <div className="absolute top-28 md:top-[8rem] xl:top-[15rem]  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem] left-4   w-[15rem] sm:w-80 h-60   flex flex-col justify-around items-start ">
           <h1 className="sm:text-5xl text-4xl">
             {" "}
             <p>Let your Home</p>
