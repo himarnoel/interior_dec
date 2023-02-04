@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 function App() {
   return (
     <div className="">
-      <nav className="  xl:px-[14rem] lg:px-[9rem] md:px-[2.5rem] py-6 2xl:bg-blue-200 mt-2 flex items-center justify-between">
+      <nav className="  xl:px-[14rem] lg:px-[9rem] md:px-[2.5rem] py-4 2xl:bg-blue-200 mt-2 flex items-center justify-between">
         <span className="flex items-center gap-y-3">
           <img src={logo} alt="" className="mr-2 object-contain w-5 " />
           <h1 className="font-medium text-2xl">Interno</h1>
@@ -24,9 +24,9 @@ function App() {
       <div className="relative mb-10 ">
         <img
           src={Hero}
-          className="w-screen h-[28rem]  object-cover rounded-bl-[100px]"
+          className="w-screen h-[30rem]  object-cover rounded-bl-[100px]"
         />
-        <div className="absolute top-20  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem]  w-80 h-60   flex flex-col justify-around items-start ">
+        <div className="absolute top-24  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem]  w-80 h-60   flex flex-col justify-around items-start ">
           <h1 className="text-5xl">
             {" "}
             <p>Let your Home</p>
