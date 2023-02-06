@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Herox from "./Components/Herox";
 import Actions from "./Components/Actions";
 import Info from "./Components/Info";
-import Testimonials from './Components/Testimonials';
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   const [change, setchange] = useState(false);
@@ -13,7 +13,7 @@ function App() {
       <Herox />
       <Actions />
       <Info />
-      <Testimonials/>
+      <Testimonials />
     </div>
   );
 }

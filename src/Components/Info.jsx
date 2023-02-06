@@ -6,7 +6,7 @@ const Info = () => {
   return (
     <div>
       {" "}
-      <div className="w-full b flex-col-reverse mt-10 grid md:grid-cols-2  md:justify-items-end xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-96 g">
+      <div className="w-full b flex-col-reverse mt-10 grid md:grid-cols-2  md:justify-items-end xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-4">
         <div className="flex flex-col justify-around md:justify-between items-start  md:text-left text-center   lg:w-full h-[26rem] lg:h-full mx-auto">
           {" "}
           <h1 className=" md:text-4xl  text-xl lg:text-left  w-full">
