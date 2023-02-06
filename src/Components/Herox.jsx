@@ -10,7 +10,7 @@ const Herox = () => {
           src={Hero}
           className="w-screen h-[30rem] lg:h-full  object-cover rounded-bl-[100px]"
         />
-        <div className="absolute top-28 md:top-[8rem] xl:top-[15rem]  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem] left-4   w-[15rem] sm:w-80 h-60   flex flex-col justify-around items-start ">
+        <div className="absolute top-[8rem] sm:top-[9rem] md:top-[10rem] xl:top-[15rem]  xl:left-[14rem] lg:left-[9rem] md:left-[2.5rem] left-4   w-[15rem] sm:w-80 h-60   flex flex-col justify-around items-start ">
           <h1 className="sm:text-5xl text-4xl">
             {" "}
             <p>Let your Home</p>

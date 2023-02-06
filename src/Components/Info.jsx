@@ -6,18 +6,18 @@ const Info = () => {
   return (
     <div>
       {" "}
-      <div className="w-full b flex-col-reverse mt-10 grid md:grid-cols-2  md:justify-items-end xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-32">
-        <div className="flex flex-col justify-around md:justify-between items-start  md:text-left text-center   lg:w-full h-[26rem] lg:h-full mx-auto">
+      <div className="w-full b flex-col-reverse mt-10 grid sm:grid-cols-2  md:justify-items-end xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-32">
+        <div className="flex flex-col justify-around sm:justify-between items-start  sm:text-left text-center   lg:w-full h-[26rem] lg:h-full mx-auto">
           {" "}
-          <h1 className=" md:text-4xl  text-xl lg:text-left  w-full">
+          <h1 className=" sm:text-4xl  text-xl lg:text-left  w-full">
             We Create The Art <br /> Of Stylish Living <br /> Stylishly
           </h1>
-          <p className="font-jost md:text-sm lg:text-base text-xs leading-6 text-center md:text-left ">
+          <p className="font-jost sm:text-sm lg:text-base text-xs leading-6 text-center sm:text-left ">
             It is a long established fact that a reader will{" "}
-            <br className="hidden md:block" /> be distracted by the of readable
-            content of a page <br className="hidden md:block" /> when lookings
+            <br className="hidden sm:block" /> be distracted by the of readable
+            content of a page <br className="hidden sm:block" /> when lookings
             at its layouts the points of using{" "}
-            <br className="hidden md:block" /> that it has a more-or-less
+            <br className="hidden sm:block" /> that it has a more-or-less
             normal.
           </p>
           <span className="flex ">
