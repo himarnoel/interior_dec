@@ -8,7 +8,7 @@ import Testimonials from "./Components/Testimonials";
 function App() {
   const [change, setchange] = useState(false);
   return (
-    <div className="">
+    <div className="bg-red-200">
       <Navbar />
       <Herox />
       <Actions />

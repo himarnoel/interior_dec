@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {change ? (
-        <div className="fixed z-20 rounded-b-xl font-jost text-sm md:text-lg  bg-white h-[15rem] w-full flex flex-col items-center justify-evenly text-left">
+        <div className="fixed z-20 lg:hidden rounded-b-xl font-jost text-sm md:text-lg  bg-white h-[15rem] w-full flex flex-col items-center justify-evenly text-left">
           <a href="">Home</a>
           <a href="">Pages</a>
           <a href="">Services</a>
