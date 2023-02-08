@@ -1,10 +1,13 @@
 import React from "react";
-import image from "../assets/mid/Photo1.png";
-const ImageProject = () => {
+
+const ImageProject = (props) => {
   return (
     <div>
-      <div>
-        <img src={image} alt="" className="object-contain w-10"/>
+      <div className="mt-10">
+        <img
+          src={props.image}
+          className={`object-contain w-[22rem]  ${props.radius} `}
+        />
       </div>
     </div>
   );
