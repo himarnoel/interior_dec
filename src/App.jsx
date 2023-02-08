@@ -5,6 +5,7 @@ import Actions from "./Components/Actions";
 import Info from "./Components/Info";
 import Testimonials from "./Components/Testimonials";
 import Brands from "./Components/Brands";
+import Projects from "./Components/Projects";
 
 function App() {
   const [change, setchange] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Info />
       <Testimonials />
       <Brands />
+      <Projects />
     </div>
   );
 }

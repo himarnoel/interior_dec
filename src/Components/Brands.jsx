@@ -7,7 +7,7 @@ import svg5 from "../assets/svgs/05.svg";
 
 const Brands = () => {
   return (
-    <div className="flex w-full xl:px-[15rem] lg:px-[9rem] sm:px-[4rem] px-[3rem] mt-10 md:mt-[10rem] mb-[20rem]  ">
+    <div className=" w-full xl:px-[15rem] lg:px-[9rem] sm:px-[4rem] px-[3rem] mt-10 md:mt-[10rem] ">
       <div className="grid sm:grid-cols-5  md:grid-cols-5 sm:h-full sm:justify-items-center h-96 w-full items-center justify-center">
         <img
           src={svg1}
