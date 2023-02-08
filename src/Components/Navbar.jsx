@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
       <section className="hidden lg:block lg:fixed w-full z-20 bg-white top-0 ">
         {" "}
-        <nav className="  xl:px-[14rem] lg:px-[9rem] py-4 2xl:bg-blue-200 flex items-center justify-between">
+        <nav className="  xl:px-[14rem] lg:px-[9rem] py-4 flex items-center justify-between">
           <span className="flex items-center gap-y-3">
             <img src={logo} alt="" className="mr-2 object-contain w-5 " />
             <h1 className="font-medium text-2xl">Interno</h1>
