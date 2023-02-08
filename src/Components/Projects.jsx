@@ -4,6 +4,7 @@ import image from "../assets/mid/Photo1.png";
 import image2 from "../assets/mid/Photo2.png";
 import image3 from "../assets/mid/Photo3.png";
 import image4 from "../assets/mid/Photo4.png";
+import image5 from "../assets/mid/Photo5.png";
 const Projects = () => {
   return (
     <div>
@@ -16,9 +17,9 @@ const Projects = () => {
           </p>
         </div>
         <div className="w-full grid md:grid-cols-2 md:justify-items-center">
-          <ImageProject radius="rounded-tr-[3rem]" image={image} />
-          <ImageProject radius="rounded-tl-[3rem]" image={image2} />
-          <ImageProject radius="rounded-br-[3rem]" image={image3} />
+          <ImageProject radius="rounded-tr-[3rem]" image={image3} />
+          <ImageProject radius="rounded-tl-[3rem]" image={image5} />
+          <ImageProject radius="rounded-br-[3rem]" image={image2} />
           <ImageProject radius="rounded-bl-[3rem]" image={image4} />
         </div>
       </div>
