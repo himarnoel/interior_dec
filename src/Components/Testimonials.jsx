@@ -6,10 +6,10 @@ const Testimonials = () => {
     <div>
       <div className="w-full   xl:px-[14rem] lg:px-[9rem] px-[1rem] bg-white justify-center items-center flex mb-20">
         <div className=" rounded-xl lg:rounded-[3rem] w-full bg-[#F4F0EC] text-center">
-          <p className="text-2xl mt-8 mb-4">
+          <p className="text-2xl lg:text-3xl mt-8 mb-4">
             What the People Thinks <br /> About Us
           </p>
-          <div className="grid sm:grid-cols-3 place-items-center justify-evenly gap-4  px-4 md:px-6 lg:px-6 pb-4">
+          <div className="grid sm:grid-cols-3 place-items-center justify-evenly gap-4  px-4 md:px-6 lg:px-6 pb-10">
             <Testimonal
               name="Nattasha Mith"
               image="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -41,4 +41,3 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
-  

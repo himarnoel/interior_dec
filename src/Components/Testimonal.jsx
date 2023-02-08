@@ -3,7 +3,7 @@ import React from "react";
 const Testimonal = (props) => {
   return (
     <div>
-      <div className="bg-white w-full  h-64 sm:h-52 rounded-xl  px-6 pt-5">
+      <div className="bg-white w-full  h-64 sm:h-52 lg:h-[14rem] rounded-xl  px-6 pt-5">
         <div className="flex items-center-center">
           {" "}
           <img
