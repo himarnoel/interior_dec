@@ -4,7 +4,7 @@ import Testimonal from "./Testimonal";
 const Testimonials = () => {
   return (
     <div>
-      <div className="w-full   xl:px-[14rem] lg:px-[9rem] px-[1rem] bg-white justify-center items-center flex mb-[10rem]">
+      <div className="w-full   xl:px-[14rem] lg:px-[9rem] px-[1rem] bg-white justify-center items-center flex mt-10 md:mt-[10rem]">
         <div className=" rounded-xl lg:rounded-[3rem] w-full bg-[#F4F0EC] text-center">
           <p className="text-2xl lg:text-[1.58rem] mt-8 mb-4">
             What the People Thinks <br /> About Us
