@@ -8,7 +8,7 @@ import image5 from "../assets/mid/Photo5.png";
 const Projects = () => {
   return (
     <div>
-      <div className=" w-full xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem] md:px-[2.5rem] px-[3rem] mt-10 md:mt-[10rem] mb-32 ">
+      <div className=" w-full  xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem]  px-[1.3rem] md:px-[2.5rem] mt-10 md:mt-[10rem] mb-32 ">
         <div className="w-full  ">
           <p className="text-3xl text-center mt-2 ">Follow Our Projects</p>
           <p className="text-center font-jost md:w-[30rem] mx-auto mt-4">
