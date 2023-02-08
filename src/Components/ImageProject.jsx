@@ -1,21 +1,21 @@
 import React from "react";
-
+import { SlArrowRight } from "react-icons/sl";
 const ImageProject = (props) => {
   return (
     <div>
-      <div className="mt-0">
+      <div className="">
         <img
           src={props.image}
           className={`object-contain w-full  ${props.radius} `}
         />
-        <div className="w-full flex">
-          <span className="flex flex-col">
-            <h4 className="">Modern Kitchan</h4>
-            <p className="w-10">Decor / Artchitecture</p>
+        <div className="w-full flex items-center justify-between mt-8 ">
+          <span className="flex flex-col ">
+            <h4 className="text-xl">Modern Kitchan</h4>
+            <p className="w-42 font-jost">Decor / Artchitecture</p>
           </span>
-          <span className="h-5 w-5 bg-[#F4F0EC]">
-            
-          </span>
+          <div className="h-10 w-10 bg-[#F4F0EC] rounded-full flex justify-center items-center">
+            <SlArrowRight className="" />
+          </div>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const Projects = () => {
             the of readable content of page lookings at its layouts points.
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 md:place-content-between  gap-4 ">
+        <div className="w-full grid md:grid-cols-2 md:place-content-between  gap-y-12 gap-x-20 mt-10 ">
           <ImageProject radius="rounded-tr-[4rem]" image={image3} />
           <ImageProject radius="rounded-tl-[4rem]" image={image5} />
           <ImageProject radius="rounded-br-[4rem]" image={image2} />
