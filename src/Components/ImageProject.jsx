@@ -8,6 +8,7 @@ const ImageProject = (props) => {
           src={props.image}
           className={`object-contain w-[22rem]  ${props.radius} `}
         />
+        
       </div>
     </div>
   );
