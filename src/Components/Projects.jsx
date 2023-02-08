@@ -11,12 +11,12 @@ const Projects = () => {
       <div className=" w-full xl:px-[14rem] lg:px-[9rem] sm:px-[4rem] px-[3rem] mt-10 md:mt-[10rem] mb-32 ">
         <div className="w-full  ">
           <p className="text-3xl text-center mt-2 ">Follow Our Projects</p>
-          <p className="text-center font-jost w-[30rem] mx-auto mt-4">
+          <p className="text-center font-jost md:w-[30rem] mx-auto mt-4">
             It is a long established fact that a reader will be distracted by
             the of readable content of page lookings at its layouts points.
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 md:place-content-between  gap-y-12 gap-x-20 mt-10 ">
+        <div className="w-full grid md:grid-cols-2 md:place-content-between  gap-y-12 gap-x-24 mt-10 ">
           <ImageProject radius="rounded-tr-[4rem]" image={image3} />
           <ImageProject radius="rounded-tl-[4rem]" image={image5} />
           <ImageProject radius="rounded-br-[4rem]" image={image2} />
