@@ -7,14 +7,13 @@ import svg5 from "../assets/svgs/05.svg";
 
 const Brands = () => {
   return (
-    <div className="flex w-full xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-[10rem] bg-green-500">
-      <div className="flex w-full bg-slate-600  justify-evenly">
-        <img src={svg1} alt="" />
-        <img src={svg2} alt="" />
-        <img src={svg3} alt="" />
-        <img src={svg4} alt="" />
-        <img src={svg5} alt="" />
-       
+    <div className="flex w-full xl:px-[14rem] lg:px-[9rem] px-[1rem] mb-[10rem] ">
+      <div className="flex md:flex-row  flex-col  w-full justify-evenly">
+        <img src={svg1} alt="" className="object-contain w-[5.2rem]" />
+        <img src={svg2} alt="" className="object-contain w-[5.2rem]" />
+        <img src={svg3} alt="" className="object-contain w-[5.2rem]" />
+        <img src={svg4} alt="" className="object-contain w-[5.2rem]" />
+        <img src={svg5} alt="" className="object-contain w-[5.2rem]" />
       </div>
     </div>
   );
