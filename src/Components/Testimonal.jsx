@@ -18,7 +18,7 @@ const Testimonal = (props) => {
             </span>
           </span>
         </div>
-        <p className="font-jost text-base text-justify mt-5">{props.text}</p>
+        <p className="font-jost text-base text-justify mt-5 sm:text-sm">{props.text}</p>
       </div>
     </div>
   );
