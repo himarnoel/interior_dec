@@ -4,7 +4,7 @@ const Actions = () => {
   return (
     <div>
       {" "}
-      <div className="w-full grid justify-center gap-y-2  sm:justify-items-center  sm:grid-cols-3 xl:px-[14rem] lg:px-[9rem] mt-10">
+      <div className="w-full grid justify-center gap-y-2  sm:justify-items-center  sm:grid-cols-3 xl:px-[14rem] lg:px-[9rem] mb-[10rem]">
         <div className="flex  flex-col  w-[14.8rem] lg:w-[18.8rem] h-[14rem] justify-evenly  items-center">
           <h2>Project Plan</h2>
           <p className="leading-8 text-center font-jost text-sm">
