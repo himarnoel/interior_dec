@@ -4,6 +4,7 @@ import Herox from "./Components/Herox";
 import Actions from "./Components/Actions";
 import Info from "./Components/Info";
 import Testimonials from "./Components/Testimonials";
+import Brands from "./Components/Brands";
 
 function App() {
   const [change, setchange] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <Actions />
       <Info />
       <Testimonials />
+      <Brands />
     </div>
   );
 }
