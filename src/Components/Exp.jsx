@@ -4,7 +4,7 @@ const Exp = () => {
   return (
     <div className="w-full  bg-[#F4F0EC]   xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem] md:px-[2.5rem] px-[3rem] mt-[10rem] mb-64">
       <div className=" w-full divide-x divide-dashed divide-cyan-700 md:py-20 py-5">
-        <div class="divide-x flex flex-col sm:flex-row items-center  justify-evenly  w-full">
+        <div class=" flex flex-col sm:flex-row items-center  justify-evenly  w-full">
           <div className="flex flex-col items-center text-center">
             <p className="text-[rgb(205,162,116)] text-[3.5rem]">12</p>
             <p
@@ -35,7 +35,7 @@ const Exp = () => {
             </p>
           </div>
           <div className="w-[0.13rem]   bg-[#CDA274] h-24"></div>
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center  ">
             <p className="text-[#CDA274] text-[3.5rem]">95</p>
             <p
               className="mt-2 font-jost
