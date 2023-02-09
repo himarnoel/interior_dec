@@ -14,7 +14,7 @@ const Exp = () => {
               Years Of Experience
             </p>
           </div>
-          <div className=" w-2  border-[#CDA274] h-24"></div>
+          <div className=" w-2  bg-[#CDA274] h-24"></div>
           <div className="flex flex-col items-center text-center ">
             <p className="text-[#CDA274] text-[3.5rem]">85</p>
             <p
@@ -24,7 +24,7 @@ const Exp = () => {
               Success Project
             </p>
           </div>
-          <div className=" w-2  border-[#CDA274] h-24"></div>
+          <div className=" w-2  bg-[#CDA274] h-24"></div>
           <div className="flex flex-col items-center text-center">
             <p className="text-[#CDA274] text-[3.5rem]">15</p>
             <p
@@ -34,7 +34,7 @@ const Exp = () => {
               Active Project
             </p>
           </div>
-          <div className=" w-2  border-[#CDA274] h-24"></div>
+          <div className=" w-2  bg-[#CDA274] h-24"></div>
           <div className="flex flex-col items-center text-center">
             <p className="text-[#CDA274] text-[3.5rem]">95</p>
             <p
