@@ -2,8 +2,8 @@ import React from "react";
 
 const Exp = () => {
   return (
-    <div className="w-full  bg-[#F4F0EC]   xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem] md:px-[2.5rem] px-[3rem] mt-[10rem] mb-64">
-      <div className=" w-full divide-x divide-dashed divide-cyan-700 md:py-20 py-5">
+    <div className="w-full  bg-[#F4F0EC]   xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem] md:px-[2.5rem] px-[3rem] mt-[10rem]">
+      <div className=" w-full  md:py-20 py-5">
         <div class=" flex flex-col sm:flex-row items-center  justify-evenly  w-full">
           <div className="flex flex-col items-center text-center">
             <p className="text-[rgb(205,162,116)] text-[3.5rem]">12</p>
@@ -41,7 +41,7 @@ const Exp = () => {
               className="mt-2 font-jost
             "
             >
-              Happy CUstomers
+              Happy Customers
             </p>
           </div>
         </div>
