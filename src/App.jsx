@@ -9,6 +9,7 @@ import Projects from "./Components/Projects";
 import Exp from "./Components/Exp";
 import News from "./Components/News";
 import Join from "./Components/Join";
+import Foot from "./Components/Foot";
 
 function App() {
   const [change, setchange] = useState(false);
@@ -24,6 +25,7 @@ function App() {
       <Exp />
       <News />
       <Join />
+      <Foot />
     </div>
   );
 }
