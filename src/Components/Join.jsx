@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Join = () => {
   return (
     <div>
-      <div className="w-full  xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem] md:px-[2.5rem] px-[3rem] mt-[10rem] ">
+      <div className="w-full  xl:px-[14rem] lg:px-[9rem] sm:px-[1.3rem]  px-[1.3rem] md:px-[2.5rem] mt-[10rem] ">
         <div className="bg-[#292F36] w-full flex flex-col items-center justify-evenly text-center  rounded-3xl h-[15rem]">
           <div>
             {" "}
