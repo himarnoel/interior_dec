@@ -13,7 +13,7 @@ const Foot = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 content-evenly gap-4 justify-evenly ">
           <div className="flex flex-col justify-between h-[7rem]">
             <span className="flex items-center">
-              <img src={logo} alt="" className="mr-2 object-contain w-5 " />
+              <img src={logo} alt="" className="mr-2 object-contain w-[1.3rem] " />
               <h1 className="font-medium text-2xl">Interno</h1>
             </span>
             <p className="font-jost text-xs">
